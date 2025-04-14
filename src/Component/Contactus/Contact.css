@@ -1,0 +1,75 @@
+#contact{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 80px;
+
+}
+#contact form{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#contacttitle{
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 20px;
+}
+#contact .list{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact .listlable{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+
+}
+#contact .list input{
+    width:500% ;
+    padding:3px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    border:1px solid gray
+
+}
+#contact .list textarea{
+    width:570% ;
+    padding:3px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    border:1px solid gray
+
+}
+
+#contactbtn{
+    padding: 10px 40px 10px 40px ;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    margin-top: 40px;
+
+}
